@@ -28,7 +28,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|774700|495300|b5c73857-e931-4ee8-8cfd-58c4f9794687|2945d80a-8bfc-441e-9435-fe5a8e520cfa|/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46|/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46|/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46",
+        ""
+      ],
+      [
+        "pin_to_pin|787400|1066800|2945d80a-8bfc-441e-9435-fe5a8e520cfa|d9f53e7b-af75-416b-9347-4a6901c924df|/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46|/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46|/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46",
+        ""
+      ],
+      [
+        "pin_to_pin|787400|1651000|d9f53e7b-af75-416b-9347-4a6901c924df|f4da7420-1f23-4316-8a57-f7c58034104a|/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46|/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46|/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -417,6 +430,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -429,7 +450,7 @@
         "uuid": "3f2c4a1d-ccb4-4431-a881-d21d84b5ce46"
       }
     ],
-    "used_designators": "H1-7,FID1-3,TP1-14,R1-33,U1-7,Q3-5,J1-3,J5-19,D2-14,C1-5,C7-37,#PWR1-78",
+    "used_designators": "#FLG1-3,H1-7,FID1-3,TP1-14,R1-33,U1-7,Q3-5,J1-3,J5-19,D2-14,C1-5,C7-37,#PWR1-78",
     "variants": []
   },
   "sheets": [
