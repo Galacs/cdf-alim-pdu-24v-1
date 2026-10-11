@@ -8560,7 +8560,7 @@
 				)
 			)
 		)
-		(property "Component Class" "OUT_4_EFUSE"
+		(property "Component Class" "OUT_5_EFUSE"
 			(at 165.608 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
