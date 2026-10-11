@@ -422,11 +422,22 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "cdf-alim-pdu-24v-1.kicad_sch",
+        "name": "cdf-alim-pdu-24v-1",
+        "uuid": "3f2c4a1d-ccb4-4431-a881-d21d84b5ce46"
+      }
+    ],
+    "used_designators": "TP3,TP6-7,TP10,R4-6,R8-9,R11-12,U2,Q3,J1,D2-3,D5,C2,C7-8,C10-11,#PWR1,#PWR4,#PWR6,#PWR9,#PWR12,#PWR15-16,#PWR19,#PWR22,#PWR24-25,#PWR28-30,#PWR32",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "3f2c4a1d-ccb4-4431-a881-d21d84b5ce46",
+      "cdf-alim-pdu-24v-1"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
