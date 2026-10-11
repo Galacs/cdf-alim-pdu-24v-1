@@ -7478,25 +7478,8 @@
 		(path "/81224d7a-e9c7-4129-a8bd-f080b4f15fcc")
 		(sheetname "/")
 		(sheetfile "cdf-alim-pdu-24v-1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "b54e3f9d-9877-4ebf-929d-25b7c6f03990")
-		)
 		(fp_circle
 			(center 0 0)
 			(end 1 0)
