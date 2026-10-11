@@ -4024,12 +4024,6 @@
 		(uuid "28fe1541-7434-4305-862d-9c022879a394")
 	)
 	(junction
-		(at 113.03 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a06e206-cd03-465b-893c-b7ebc5f7d633")
-	)
-	(junction
 		(at 248.92 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4196,12 +4190,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67889a56-1a08-43ee-aee1-12d50acc4880")
-	)
-	(junction
-		(at 113.03 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e8cf465-5f46-4be7-8f42-02ec717a9421")
 	)
 	(junction
 		(at 81.28 82.55)
@@ -4448,12 +4436,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba6ed244-515a-4534-a57c-4a867b334947")
-	)
-	(junction
-		(at 111.76 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bafb15a2-179e-4351-af6c-ada475388d44")
 	)
 	(junction
 		(at 161.29 181.61)
@@ -4931,7 +4913,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 25.4) (xy 111.76 25.4)
+			(xy 107.95 25.4) (xy 114.3 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5038,16 +5020,6 @@
 			(type default)
 		)
 		(uuid "1e06e6c4-57ef-4b66-bc4d-a8b9583b1fc8")
-	)
-	(wire
-		(pts
-			(xy 107.95 25.4) (xy 111.76 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e1d164a-9626-4a69-96a9-a0372e7433e8")
 	)
 	(wire
 		(pts
@@ -10012,85 +9984,6 @@
 			(project "cdf-alim-pdu-24v-1"
 				(path "/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 113.03 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0fa5fbc9-bff7-41b2-96d1-d3cab60ca3d5")
-		(property "Reference" "TP9"
-			(at 110.998 77.216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 115.57 80.5179 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 118.11 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 113.03 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "224cdbce-d443-4c81-80ed-e1dbb35633d5")
-		)
-		(instances
-			(project "cdf-alim-pdu-24v-1"
-				(path "/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -26206,85 +26099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 113.03 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c6d7abd1-c25f-4cf9-b6d4-4b19b4e1b033")
-		(property "Reference" "TP10"
-			(at 110.998 135.636 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 115.57 138.9379 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 118.11 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 113.03 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1744a125-ac26-4fc9-9d7e-8ef8763f7e29")
-		)
-		(instances
-			(project "cdf-alim-pdu-24v-1"
-				(path "/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 234.95 58.42 0)
 		(unit 1)
@@ -26754,85 +26568,6 @@
 			(project "cdf-alim-pdu-24v-1"
 				(path "/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d32cf831-0d5d-43dc-a150-b6541aa8a7b5")
-		(property "Reference" "TP8"
-			(at 109.728 20.066 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 114.3 23.3679 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 116.84 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fad43b55-b7ec-46de-a77d-0ddabe71e18d")
-		)
-		(instances
-			(project "cdf-alim-pdu-24v-1"
-				(path "/3f2c4a1d-ccb4-4431-a881-d21d84b5ce46"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
